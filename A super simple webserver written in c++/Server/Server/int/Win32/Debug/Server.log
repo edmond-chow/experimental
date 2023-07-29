@@ -1,0 +1,3 @@
+﻿  Server.cpp
+C:\Users\user\Desktop\Server\Server\Server.cpp(11,19): warning C4018: '<': signed/unsigned 不相符
+  Server.vcxproj -> C:\Users\user\Desktop\Server\Server\bin\Win32\Debug\Server.exe

@@ -1,3 +1,0 @@
-﻿  Server.cpp
-C:\Users\user\Desktop\Server\Server\Server.cpp(116,81): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
-  Server.vcxproj -> C:\Users\user\Desktop\Server\Server\bin\x64\Debug\Server.exe

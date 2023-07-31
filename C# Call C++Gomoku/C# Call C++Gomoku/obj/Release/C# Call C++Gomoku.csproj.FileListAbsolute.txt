@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\bin\Release\C# Call C++Gomoku.exe.config
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\bin\Release\C# Call C++Gomoku.exe
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\bin\Release\C# Call C++Gomoku.pdb
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\obj\Release\C# Call C++Gomoku.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\obj\Release\C# Call C++Gomoku.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\obj\Release\C# Call C++Gomoku.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\obj\Release\C# Call C++Gomoku.exe
+C:\Users\user\Desktop\experimental-main\C# Call C++Gomoku\C# Call C++Gomoku\obj\Release\C# Call C++Gomoku.pdb

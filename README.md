@@ -7,3 +7,4 @@
 [2022/04/25] C# Call C++Gomoku v2
 [2022/05/10] Hypothetical Dynamic Memory Allocation
 [2023/07/29] A simple webserver
+[2023/08/3] Web console

@@ -1,0 +1,2 @@
+emcc "Complex/Complex.cpp" "Complex 2.0/Complex 2.0.cpp" "Complex 3.0/Complex 3.0.cpp" "Complex Testing Console/Base Extension.cpp" "Complex Testing Console/Base.cpp" "Complex Testing Console/Module.cpp" "Complex Testing Console/Module2.cpp" "Complex Testing Console/Module3.cpp" -std=c++20 -o "Complex Testing Console.js" -s ASYNCIFY
+pause

@@ -1,0 +1,361 @@
+@layer /* basis */ {
+	/* default */
+	::selection {
+		color: white;
+		background-color: #5F2BDE;
+	}
+	:focus-visible {
+		outline: 2px solid blanchedalmond;
+		outline-offset: 0px;
+	}
+	:before, :after {
+		vertical-align: middle;
+		text-align: center;
+		overflow-wrap: anywhere;
+		word-break: normal;
+		text-decoration: none;
+		overflow: visible;
+		position: static;
+		display: inline;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+	}
+	style, link, script, meta {
+		display: none;
+	}
+	[hidden] {
+		display: none;
+	}
+	@supports (text-size-adjust: 100%) {
+		:is(html, body):not(.disabled-default-initializer) {
+			text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+		}
+	}
+	:is(html, body):not(.disabled-default-initializer) {
+		vertical-align: top;
+		text-align: left;
+		overflow-wrap: anywhere;
+		word-break: normal;
+		text-decoration: none;
+		overflow: visible;
+		position: static;
+		display: block;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+		line-height: 17px;
+		font-size: 16px;
+		font-family: 'Noto Sans', 'Microsoft JhengHei';
+		font-weight: normal;
+		font-style: normal;
+		color: black;
+		letter-spacing: 0px;
+	}
+	body :not(.disabled-default-initializer):not(style, link, script, meta):not([hidden]) {
+		vertical-align: top;
+		text-align: left;
+		overflow-wrap: anywhere;
+		word-break: normal;
+		text-decoration: none;
+		overflow: visible;
+		position: static;
+		display: block;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: auto;
+		height: auto;
+	}
+	:is(h1, h2, h3, h4, h5, h6, p, pre, code, samp, kbd, a, b, strong, em, var, s, sub, sup, span):not(.disabled-default-initializer) {
+		vertical-align: baseline;
+		text-align: inherit;
+		overflow-wrap: inherit;
+		word-break: inherit;
+		text-decoration: inherit;
+		display: inline-block;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		line-height: inherit;
+		font-size: inherit;
+		font-family: inherit;
+		font-weight: inherit;
+		font-style: inherit;
+		color: inherit;
+	}
+	:is(b, strong, em, var, s, sub, sup, span):not(.disabled-default-initializer) {
+		display: inline;
+	}
+	h1:not(.disabled-default-initializer) { line-height: 38px; font-size: 32px   ; font-weight: 500; }
+	h2:not(.disabled-default-initializer) { line-height: 29px; font-size: 24px   ; font-weight: 500; }
+	h3:not(.disabled-default-initializer) { line-height: 23px; font-size: 18.72px; font-weight: 500; }
+	h4:not(.disabled-default-initializer) { line-height: 19px; font-size: 16px   ; font-weight: 500; }
+	h5:not(.disabled-default-initializer) { line-height: 17px; font-size: 13.28px; font-weight: 500; }
+	h6:not(.disabled-default-initializer) { line-height: 13px; font-size: 10.72px; font-weight: 500; }
+	p:not(.disabled-default-initializer)  { line-height: 18px; font-size: 16px; font-weight: normal; font-family: 'Noto Sans', 'Microsoft JhengHei'; }
+	pre:not(.disabled-default-initializer)  { line-height: 15px; font-size: 13px; font-weight: normal; font-family: 'Menlo', 'consolas', 'monospace'; }
+	code:not(.disabled-default-initializer) { line-height: 15px; font-size: 13px; font-weight: normal; font-family: 'Menlo', 'consolas', 'monospace'; }
+	samp:not(.disabled-default-initializer) { line-height: 15px; font-size: 13px; font-weight: normal; font-family: 'Menlo', 'consolas', 'monospace'; }
+	kbd:not(.disabled-default-initializer)  { line-height: 15px; font-size: 13px; font-weight: normal; font-family: 'Menlo', 'consolas', 'monospace'; }
+	a:not(.disabled-default-initializer) { text-decoration: underline; display: inline; }
+	:is(b, strong):not(.disabled-default-initializer) { font-weight: bold; }
+	:is(em, var):not(.disabled-default-initializer) { font-style: italic; }
+	s:not(.disabled-default-initializer) { text-decoration: line-through; }
+	sub:not(.disabled-default-initializer) { vertical-align: sub  ; font-size: smaller; }
+	sup:not(.disabled-default-initializer) { vertical-align: super; font-size: smaller; }
+	span:not(.disabled-default-initializer) { cursor: text; }
+	button:not(.disabled-default-initializer) {
+		font-family: 'Noto Sans', 'Microsoft JhengHei';
+	}
+	table:not(.disabled-default-initializer) {
+		border-collapse: collapse;
+	}
+	:is(img, video, iframe):not(.disabled-default-initializer) {
+		aspect-ratio: auto 16 / 9;
+	}
+	:is(h1, h2, h3, h4, h5, h6, p, pre):not(.disabled-default-initializer) {
+		color: black;
+	}
+	a:not(.disabled-default-initializer) {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	h4:not(.disabled-default-initializer) {
+		font-size: 16px;
+		line-height: 21px;
+	}
+	p:not(.disabled-default-initializer) {
+		font-size: 16px;
+		line-height: 21px;
+	}
+	pre:not(.disabled-default-initializer) {
+		font-size: 13.5px;
+		line-height: 18px;
+	}
+}
+@layer /* features */ {
+	body {
+		background-color: black;
+	}
+	body > console {
+		overflow: auto;
+		display: block;
+		padding: 8px 8px 37px 8px;
+	}
+	body > console > input[type="text"] {
+		text-align: left;
+		font-size: 16px;
+    	line-height: 21px;
+		position: fixed;
+		display: block;
+		bottom: 8px;
+		left: 8px;
+		right: 8px;
+		background-color: transparent;
+	}
+	body > console[foreground="black"] > input[type="text"] {
+		color: rgb(0, 0, 0);
+	}
+	body > console[foreground="dark-blue"] > input[type="text"] {
+		color: rgb(0, 0, 128);
+	}
+	body > console[foreground="dark-green"] > input[type="text"] {
+		color: rgb(0, 128, 0);
+	}
+	body > console[foreground="dark-cyan"] > input[type="text"] {
+		color: rgb(0, 128, 128);
+	}
+	body > console[foreground="dark-red"] > input[type="text"] {
+		color: rgb(128, 0, 0);
+	}
+	body > console[foreground="dark-magenta"] > input[type="text"] {
+		color: rgb(128, 0, 128);
+	}
+	body > console[foreground="dark-yellow"] > input[type="text"] {
+		color: rgb(128, 128, 0);
+	}
+	body > console[foreground="dark-white"] > input[type="text"] {
+		color: rgb(192, 192, 192);
+	}
+	body > console[foreground="bright-black"] > input[type="text"] {
+		color: rgb(128, 128, 128);
+	}
+	body > console[foreground="bright-blue"] > input[type="text"] {
+		color: rgb(0, 0, 255);
+	}
+	body > console[foreground="bright-green"] > input[type="text"] {
+		color: rgb(0, 255, 0);
+	}
+	body > console[foreground="bright-cyan"] > input[type="text"] {
+		color: rgb(0, 255, 255);
+	}
+	body > console[foreground="bright-red"] > input[type="text"] {
+		color: rgb(255, 0, 0);
+	}
+	body > console[foreground="bright-magenta"] > input[type="text"] {
+		color: rgb(255, 0, 255);
+	}
+	body > console[foreground="bright-yellow"] > input[type="text"] {
+		color: rgb(255, 255, 0);
+	}
+	body > console[foreground="bright-white"] > input[type="text"] {
+		color: rgb(255, 255, 255);
+	}
+	body > console[background="black"] > input[type="text"] {
+		background-color: rgb(0, 0, 0);
+	}
+	body > console[background="dark-blue"] > input[type="text"] {
+		background-color: rgb(0, 0, 128);
+	}
+	body > console[background="dark-green"] > input[type="text"] {
+		background-color: rgb(0, 128, 0);
+	}
+	body > console[background="dark-cyan"] > input[type="text"] {
+		background-color: rgb(0, 128, 128);
+	}
+	body > console[background="dark-red"] > input[type="text"] {
+		background-color: rgb(128, 0, 0);
+	}
+	body > console[background="dark-magenta"] > input[type="text"] {
+		background-color: rgb(128, 0, 128);
+	}
+	body > console[background="dark-yellow"] > input[type="text"] {
+		background-color: rgb(128, 128, 0);
+	}
+	body > console[background="dark-white"] > input[type="text"] {
+		background-color: rgb(192, 192, 192);
+	}
+	body > console[background="bright-black"] > input[type="text"] {
+		background-color: rgb(128, 128, 128);
+	}
+	body > console[background="bright-blue"] > input[type="text"] {
+		background-color: rgb(0, 0, 255);
+	}
+	body > console[background="bright-green"] > input[type="text"] {
+		background-color: rgb(0, 255, 0);
+	}
+	body > console[background="bright-cyan"] > input[type="text"] {
+		background-color: rgb(0, 255, 255);
+	}
+	body > console[background="bright-red"] > input[type="text"] {
+		background-color: rgb(255, 0, 0);
+	}
+	body > console[background="bright-magenta"] > input[type="text"] {
+		background-color: rgb(255, 0, 255);
+	}
+	body > console[background="bright-yellow"] > input[type="text"] {
+		background-color: rgb(255, 255, 0);
+	}
+	body > console[background="bright-white"] > input[type="text"] {
+		background-color: rgb(255, 255, 255);
+	}
+	body > console > line {
+		text-align: left;
+		display: block;
+		font-size: 16px;
+		line-height: 21px;
+		color: rgb(192, 192, 192);
+	}
+	body > console > line > span {
+		display: inline;
+	}
+	body > console > line > span[foreground="black"] {
+		color: rgb(0, 0, 0);
+	}
+	body > console > line > span[foreground="dark-blue"] {
+		color: rgb(0, 0, 128);
+	}
+	body > console > line > span[foreground="dark-green"] {
+		color: rgb(0, 128, 0);
+	}
+	body > console > line > span[foreground="dark-cyan"] {
+		color: rgb(0, 128, 128);
+	}
+	body > console > line > span[foreground="dark-red"] {
+		color: rgb(128, 0, 0);
+	}
+	body > console > line > span[foreground="dark-magenta"] {
+		color: rgb(128, 0, 128);
+	}
+	body > console > line > span[foreground="dark-yellow"] {
+		color: rgb(128, 128, 0);
+	}
+	body > console > line > span[foreground="dark-white"] {
+		color: rgb(192, 192, 192);
+	}
+	body > console > line > span[foreground="bright-black"] {
+		color: rgb(128, 128, 128);
+	}
+	body > console > line > span[foreground="bright-blue"] {
+		color: rgb(0, 0, 255);
+	}
+	body > console > line > span[foreground="bright-green"] {
+		color: rgb(0, 255, 0);
+	}
+	body > console > line > span[foreground="bright-cyan"] {
+		color: rgb(0, 255, 255);
+	}
+	body > console > line > span[foreground="bright-red"] {
+		color: rgb(255, 0, 0);
+	}
+	body > console > line > span[foreground="bright-magenta"] {
+		color: rgb(255, 0, 255);
+	}
+	body > console > line > span[foreground="bright-yellow"] {
+		color: rgb(255, 255, 0);
+	}
+	body > console > line > span[foreground="bright-white"] {
+		color: rgb(255, 255, 255);
+	}
+	body > console > line > span[background="black"] {
+		background-color: rgb(0, 0, 0);
+	}
+	body > console > line > span[background="dark-blue"] {
+		background-color: rgb(0, 0, 128);
+	}
+	body > console > line > span[background="dark-green"] {
+		background-color: rgb(0, 128, 0);
+	}
+	body > console > line > span[background="dark-cyan"] {
+		background-color: rgb(0, 128, 128);
+	}
+	body > console > line > span[background="dark-red"] {
+		background-color: rgb(128, 0, 0);
+	}
+	body > console > line > span[background="dark-magenta"] {
+		background-color: rgb(128, 0, 128);
+	}
+	body > console > line > span[background="dark-yellow"] {
+		background-color: rgb(128, 128, 0);
+	}
+	body > console > line > span[background="dark-white"] {
+		background-color: rgb(192, 192, 192);
+	}
+	body > console > line > span[background="bright-black"] {
+		background-color: rgb(128, 128, 128);
+	}
+	body > console > line > span[background="bright-blue"] {
+		background-color: rgb(0, 0, 255);
+	}
+	body > console > line > span[background="bright-green"] {
+		background-color: rgb(0, 255, 0);
+	}
+	body > console > line > span[background="bright-cyan"] {
+		background-color: rgb(0, 255, 255);
+	}
+	body > console > line > span[background="bright-red"] {
+		background-color: rgb(255, 0, 0);
+	}
+	body > console > line > span[background="bright-magenta"] {
+		background-color: rgb(255, 0, 255);
+	}
+	body > console > line > span[background="bright-yellow"] {
+		background-color: rgb(255, 255, 0);
+	}
+	body > console > line > span[background="bright-white"] {
+		background-color: rgb(255, 255, 255);
+	}
+}

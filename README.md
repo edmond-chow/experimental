@@ -26,3 +26,4 @@
 &emsp;-> https://github.com/edmond-chow/edmond-chow.github.io/commit/325906ba6ee7d2860b3a0c2d7a180430c338e5cb#diff-c7c27b9beb4c5841f6c3d5a350a13b68bb4a27196a6d4e3417cd78e9ce7fa7c3</br>
 [2024/01/06] C++ Resource Handler</br>
 [2024/02/24] CXA Guard Object</br>
+[2024/04/23] VB AsyncCoroutineMethodBuilder</br>

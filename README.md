@@ -12,7 +12,8 @@
 [2022/05/10] Hypothetical Dynamic Memory Allocation</br>
 [2022/09/05] C++ Console Original</br>
 [2023/07/29] A simple webserver</br>
-[2023/08/3] Web console</br>
+[2023/08/03] Web console</br>
+[2023/08/04] js Loading WASM</br>
 [2023/09/18] CSS Shining</br>
 [2023/10/15] js makePrototypeOf</br>
 [2023/11/16] C++ Regex Matcher</br>

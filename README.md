@@ -18,6 +18,7 @@
 [2023/08/04] js Loading WASM</br>
 [2023/09/18] CSS Shining</br>
 [2023/10/15] js makePrototypeOf</br>
+    -> v2 + Object.setPrototypeOf</br>
 [2023/11/16] C++ Regex Matcher</br>
 [2023/11/28] C++ MBS WCS</br>
     -> https://github.com/edmond-chow/edmond-chow.github.io/commit/325906ba6ee7d2860b3a0c2d7a180430c338e5cb#diff-c7c27b9beb4c5841f6c3d5a350a13b68bb4a27196a6d4e3417cd78e9ce7fa7c3</br>

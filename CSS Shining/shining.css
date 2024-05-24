@@ -1,14 +1,7 @@
-console>buffer>line:last-of-type {
+console > buffer > line {
     position: relative;
 }
-console>buffer>line:last-of-type>span:last-of-type:after {
-    content: '...';
-    display: inline;
-    white-space: pre-wrap;
-    word-break: break-all;
-    overflow-wrap: anywhere;
-}
-console>buffer>line:last-of-type:after {
+console > buffer > line:last-of-type:after {
     content: '';
     position: absolute;
     height: 2px;
@@ -16,15 +9,20 @@ console>buffer>line:last-of-type:after {
     bottom: 0px;
     animation: shining 1s infinite;
 }
+console > buffer > line:last-of-type > span:last-of-type:after {
+    content: '...';
+    display: inline;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+}
 @keyframes shining {
     0% {
         background-color: transparent;
     }
-
     50% {
         background-color: white;
     }
-
     100% {
         background-color: transparent;
     }

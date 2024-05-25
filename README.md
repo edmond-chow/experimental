@@ -25,6 +25,7 @@
 [2023/09/18] CSS Shining</br>
 [2023/10/15] js makePrototypeOf</br>
 &emsp;-> v2 + Object.setPrototypeOf</br>
+[2022/11/06] VB Native</br>
 [2023/11/16] C++ Regex Matcher</br>
 [2023/11/28] C++ MBS WCS</br>
 [2023/12/29] C++ Convert Double To String</br>

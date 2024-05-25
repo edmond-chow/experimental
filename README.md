@@ -17,6 +17,7 @@
 [2022/09/05] C++ Console Original</br>
 [2022/07/14] C++ Addor</br>
 [2022/07/21] C++ std function v3</br>
+[2022/07/25] C++ std function v4</br>
 [2023/07/29] A simple webserver</br>
 [2023/08/03] Web console</br>
 [2023/08/04] js Loading WASM</br>

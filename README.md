@@ -27,6 +27,7 @@
 &emsp;-> v2 + Object.setPrototypeOf</br>
 [2022/11/06] VB Native</br>
 [2023/11/16] C++ Regex Matcher</br>
+[2022/11/26] VB drag and drop</br>
 [2023/11/28] C++ MBS WCS</br>
 [2023/12/29] C++ Convert Double To String</br>
 [2023/12/29] C# StringBuilder</br>

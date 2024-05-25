@@ -28,7 +28,7 @@
 [2023/08/03] Web console<br/>
 [2023/08/04] js Loading WASM<br/>
 [2023/08/22] sedenion-analyser<br/>
-&emsp;-> before merge!!!
+&emsp;-> before merge!!!<br/>
 [2023/09/06] C++ std wstringbuf<br/>
 [2023/09/18] CSS Shining<br/>
 [2023/10/15] js makePrototypeOf<br/>

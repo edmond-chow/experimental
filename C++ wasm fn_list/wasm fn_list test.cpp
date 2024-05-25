@@ -1,0 +1,2 @@
+std::wcout << L"fn_list::push(" << (uintptr_t)func << L", " << (uintptr_t)arg << L") [" << slot << L"]" << std::endl;
+std::wcout << L"fn_list::pop(" << (uintptr_t)fn_ptr << L", " << (uintptr_t)last->arg[slot] << L") [" << slot << L"]" << std::endl;

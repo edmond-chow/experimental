@@ -11,6 +11,7 @@
 [2022/04/25] C# Call C++Gomoku v2</br>
 [2022/05/10] C++ constexpr with hypothetical dynamically memory allocation</br>
 [2022/05/11] C++ constexpr with hypothetical dynamically memory allocation v2</br>
+[2022/06/05] C++ std function</br>
 [2022/06/17] C++ SFML Windows</br>
 [2022/09/05] C++ Console Original</br>
 [2023/07/29] A simple webserver</br>

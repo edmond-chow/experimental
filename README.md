@@ -14,6 +14,7 @@
 [2022/06/05] C++ std function</br>
 [2022/06/07] C++ std function v2</br>
 [2022/06/17] C++ SFML Windows</br>
+[2022/08/29] C++ Linux getch</br>
 [2022/09/05] C++ Console Original</br>
 [2022/07/14] C++ Addor</br>
 [2022/07/21] C++ std function v3</br>

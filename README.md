@@ -49,4 +49,5 @@
 &emsp;-> https://github.com/edmond-chow/experimental/commit/029ded5c5a3da4bc50e185ce0fbafca07f9cfa83<br/>
 [2024/05/11] Postgresql<br/>
 [2024/05/27] sedenion-analyser v2<br/>
-&emsp;embind + val.h
+&emsp;embind + val.h<br/>
+[2024/05/29] sedenion-analyser v3<br/>

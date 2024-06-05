@@ -1,2 +1,2 @@
-dumpbin /imports "Dynamic Function.lib"
+dumpbin /imports "Complex.lib"
 dumpbin /exports "Complex.dll"

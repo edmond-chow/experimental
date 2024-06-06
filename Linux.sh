@@ -1,3 +1,4 @@
+sudo apt-get install ncurses-dev
 sudo apt install net-tools
 sudo apt install xterm
 sudo apt install xtitle

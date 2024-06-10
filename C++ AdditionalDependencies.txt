@@ -1,0 +1,1 @@
+-lX11;-lsfml-graphics;-lsfml-window;-lsfml-system;%(AdditionalDependencies)

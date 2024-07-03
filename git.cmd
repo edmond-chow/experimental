@@ -11,6 +11,7 @@ code repo
 git init
 
 git tag Release1 Release0
+git tag -d Release1
 git push origin Release1 :Release0
 
 git status

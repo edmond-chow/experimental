@@ -10,6 +10,9 @@ ls -a repo
 code repo
 git init
 
+git tag Release1 Release0
+git push origin Release1 :Release0
+
 git status
 git diff
 git add code.txt

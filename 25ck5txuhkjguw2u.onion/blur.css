@@ -1,0 +1,106 @@
+/*body*/
+/*img*/
+/*video*/
+/*iframe*/
+/*text-style*/
+h1, h2, h3, h4, h5, h6, p, pre {
+    color: rgba(0,0,0,0.5);
+}
+/*button*/
+button.buttond {
+    border-radius: 5px;
+}
+button.button {
+    border-radius: 8px;
+}
+dir#bottom-content-dir > dir#sub-bottom-content-dir > a#background-image-download-button > button.button {
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+}
+/*dir*/
+dir.mother-kx {
+    border-radius: 8px;
+}
+dir.mother-kx > dir.kx {
+    position: relative;
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(20px);
+}
+dir.mother-kx > dir.kx > table.kx-table {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+dir.mother-kx > dir.kx.NoPadding > dir.kx-content {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+dir.mother-kx > dir.kx > p.kx-p {
+    top: -69px;
+}
+/*dropdown*/
+div.dropdown > div.dropdown-content {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+div.dropdown > div.dropdown-content > a {
+    color: rgb(10, 10, 10);
+}
+div.dropdown > div.dropdown-content > a:hover {
+    background-color: rgb(238, 238, 238);
+}
+div.dropdown > div.dropdown-content > a:active {
+    background-color: rgb(211, 211, 211);
+}
+/* icons */
+/*-------*/
+/*==================*/
+ul#Top-Navigation-Bar {
+    border-radius: 5px;
+    border: 0px;
+    top: 9px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+}
+ul#Top-Navigation-Bar.Top-Navigation-Bar-Large {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+ul#Top-Navigation-Bar.Top-Navigation-Bar-Medium {
+	left: calc((100% - 1032px) / 2 + 1px);
+	right: calc((100% - 1032px) / 2 + 1px);
+}
+ul#Top-Navigation-Bar.Top-Navigation-Bar-Small {
+	left: 9px;
+	right: 9px;
+}
+/* GoldenRatioFrame */
+dir.mother-kx > dir.kx.NoPadding > dir.kx-content > div.s-width.r-height:last-child,
+dir.mother-kx > dir.kx.NoPadding > dir.kx-content > div.s-height.r-width:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+/*                     */
+/*    blur-boundary    */
+/*                     */
+dir.blur-boundary {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%;
+    z-index: 0;
+}
+dir.blur-boundary.fixed {
+    position: fixed;
+}
+dir.blur-boundary > dir.blur {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    position: absolute;
+    filter: blur(20px);
+}

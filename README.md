@@ -19,6 +19,7 @@
 [2022/06/05] C++ std function<br/>
 [2022/06/07] C++ std function v2<br/>
 [2022/06/17] C++ SFML Windows<br/>
+[2022/08/05] C++ Coroutines<br/>
 [2022/08/05] C++ Placeholder<br/>
 [2022/08/19] C++ Binder<br/>
 [2022/08/29] C++ Linux getch (bug fixed by v2)<br/>

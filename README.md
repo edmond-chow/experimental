@@ -57,3 +57,4 @@
 &emsp;embind + val.h<br/>
 [2024/06/07] C++ Linux getch v2<br/>
 [2024/06/24] CSS Dark Mode<br/>
+[2025/3/15] C++ pow<br/>
